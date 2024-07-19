@@ -25,9 +25,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/lib/chart/chart.min.js",
+              "src/assets/lib/easing/easing.min.js",
+              "src/assets/lib/waypoints/waypoints.min.js",
+              "src/assets/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/lib/tempusdominus/js/moment.min.js",
+              "src/assets/lib/tempusdominus/js/moment-timezone.min.js",
+              "src/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +100,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/pink-bluegrey.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
